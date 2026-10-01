@@ -1,0 +1,18 @@
+AI NAUDOJIMO ŽURNALAS
+
+1. Svarbi užklausa: parengti tris Jupyter Notebook pagal egzamino užduotį, naudojant hour.csv ir kolokviumo planą.
+Priimta: bendra chronologinio vertinimo struktūra, leakage prevencija, baseline, CatBoost/MLP/SVR, metrikos, abliacija, atsparumo bandymas ir grafikai.
+Patikra: kodas sulygintas su dėstytojo užduoties reikalavimais ir hour.csv stulpeliais.
+
+2. AI prielaida / klaida: pradinis planas galėjo leisti naudoti tikslinės būsimos valandos faktinius orus. Tai būtų realiame prognozavime ne visada žinoma informacija.
+Sprendimas: notebookuose naudojami dabartinės valandos orai; būsimos valandos faktiniai orai nenaudojami.
+
+3. AI prielaida / klaida: paprastas pandas shift pagal eilutes gali neatitikti tikro 24/168 val. laiko tarpo, jei duomenyse trūksta valandų.
+Sprendimas: lag ir target reikšmės jungiamos pagal tikslų datetime.
+
+4. AI pasiūlymas: naudoti casual ir registered kaip požymius.
+Atmesta: cnt = casual + registered, todėl tai būtų tiesioginis target leakage.
+
+5. Šaltinių patikra: CatBoost pagrindimas tikrintas pagal Aydın ir kt. (2023), DOI 10.5505/pajes.2023.39959; MLP pagal Alfian ir kt. (2026), DOI 10.7717/peerj-cs.3472; SVR kaip tinkamas palyginamasis metodas yra tiesiogiai numatytas dėstytojo užduotyje ir aptariamas dviračių paklausos ML literatūroje.
+
+Pastaba: prieš pateikimą studentas turi pats paleisti visus notebookus savo aplinkoje, peržiūrėti gautas metrikas/grafikus ir gebėti paaiškinti kiekvieną kodo dalį.

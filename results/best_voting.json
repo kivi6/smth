@@ -1,0 +1,21 @@
+{
+  "gbr": {
+    "n_estimators": 500,
+    "learning_rate": 0.054814333471625516,
+    "max_depth": 5,
+    "min_samples_leaf": 15,
+    "subsample": 0.8829839193699777
+  },
+  "gbr_selection": "Optuna TPE",
+  "hgbr": {
+    "max_iter": 600,
+    "learning_rate": 0.06122992604498744,
+    "max_leaf_nodes": 30,
+    "l2_regularization": 0.0009470367011113344,
+    "min_samples_leaf": 11
+  },
+  "hgbr_selection": "Optuna TPE",
+  "w_gbr": 0.09011000156226526,
+  "w_hgbr": 0.9098899984377348,
+  "selection_metric": "DEV_MAE"
+}

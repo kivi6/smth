@@ -1,0 +1,8 @@
+{
+  "hidden": 128,
+  "blocks": 2,
+  "lr": 0.001,
+  "lookback": 24,
+  "selection_metric": "DEV_MAE",
+  "model_type": "lightweight_NBEATS_type"
+}

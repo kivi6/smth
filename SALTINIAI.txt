@@ -1,0 +1,12 @@
+PAGRINDINIAI ŠALTINIAI
+
+UCI Bike Sharing Dataset. DOI: 10.24432/C5W894
+https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset
+
+Aydın, Z. E., İçmen Erdem, B., Erzurum Çiçek, Z. İ. (2023). Prediction bike-sharing demand with gradient boosting methods. DOI: 10.5505/pajes.2023.39959
+
+Alfian, G. et al. (2026). Multi-step-ahead forecasting of bike-sharing demand using multilayer perceptron model with additional timestamp features. DOI: 10.7717/peerj-cs.3472
+
+Peláez-Rodríguez, C. et al. (2024). Bike sharing and cable car demand forecasting using machine learning and deep learning multivariate time series approaches. DOI: 10.1016/j.eswa.2023.122264
+
+Gao, C., Chen, Y. (2022). Using Machine Learning Methods to Predict Demand for Bike Sharing. DOI: 10.1007/978-3-030-94751-4_25
